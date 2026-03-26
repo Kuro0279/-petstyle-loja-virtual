@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/output.css" rel="stylesheet">
+    <title>Pet&Style</title>
+</head>
+<body>
+    <header>
+        <section  id="home" class="sec sec__home flex-row justify-items-center bg-yellow-200">
+            <h1 class="font-bold text-2xl text-center">Te desejamos boas-vindas à</h1>
+            <img src="https://placehold.co/300x150/transparent/e17100?text=PetStyle" alt="Logotipo da marca">
+                <nav class="w-full">
+                    <ul class="grid justify-items-center font-bold sm:grid-cols-5 sm:text-small md:grid-cols-9 text-l">
+                        <li class="w-full text-center col-span-1 col-start-1 md:col-start-3"><a class="w-full" href="#home">Home</a></li>
+                        <li class="w-full text-center"><a class="w-full" href="#sobre">Sobre nós</a></li>
+                        <li class="w-full text-center"><a class="w-full" href="#produtos">Produtos</a></li>
+                        <li class="w-full text-center"><a class="w-full" href="#depoimentos">Depoimentos</a></li>
+                        <li class="w-full text-center"><a class="w-full" href="#contato">Contate-nos</a></li>
+                    </ul>
+                </nav>
+        </section>
+    </header>
+    <main>
+        <section id="sobre" class="sec sec__sobre text-center py-4">
+            <div class="flex-row justify-items-center">
+                <h1 class="font-bold text-xl">Sobre nós:</h1>
+                <p>Seja bem-vindo à Pet&Style, a pet-shop com o compromisso de manter seu pet bem cuidado e saudável.</p>
+                <h2 class="font-bold text-xl pt-2">Conheça nossa equipe:</h2>
+                <h4>Nossa equipe é formada pelos profissionais mais qualificados na área, com nosso foco de atender nosso público e nossos amigos de 4 (ou mais) patas bem atendidos</h4>
+                <img class="w-full" src="https://placehold.co/1800x400?text=Nossa+Equipe" alt="Nossa equipe">
+            </div>
+        </section>
+        <section id="produtos" class="sec sec__produtos py-3">
+            <h1 class="font-bold text-xl text-center">Nossos produtos:</h1>
+            <div class="flex justify-around div__card-produtos py-2">
+                <div class="div__produto-1 flex-none bg-amber-100 p-2 rounded-2xl w-fit">
+                    <img class="h-40 rounded-2xl" src="https://placehold.co/200" alt="Produto 1">
+                    <p class="text-center">Shampoo para pets</p>
+                </div>
+                <div class="div__produto-2 flex-none bg-amber-100 p-2 rounded-2xl w-fit">
+                    <img class="h-40 rounded-2xl md:h-50" src="https://placehold.co/200" alt="Produto 2">
+                    <p class="text-center">Escova de pelos</p>
+                </div>
+                <div class="div__produto-3 flex-none bg-amber-100 p-2 rounded-2xl w-fit">
+                    <img class="h-40 rounded-2xl md:h-50" src="https://placehold.co/200" alt="Produto 3">
+                    <p class="text-center">Caminha para cães</p>
+                </div>
+            </div>
+        </section>
+        <section id="depoimentos" class="sec sec__depoimentos py-3">
+            <h1 class="font-bold text-xl text-center">Opiniões dos nossos clientes</h1>
+            <div class="flex justify-around div__card-depoimentos py-2">
+                <div class="div__cliente-2 flex justify-items-center bg-amber-100 p-2 rounded-full">
+                    <img class="h-40 rounded-full md:h-50" src="https://placehold.co/150" alt="Cliente 2">
+                    <div class="px-4 content-center">
+                        <p class="font-bold text-sm md:text-lg">Cristian</p>
+                        <p class="italic text-sm md:text-md">O trabalho é excelente<br>e muito rápido</p>
+                    </div>
+                </div>
+                <div class="div__cliente-2 flex justify-items-center bg-amber-100 p-2 rounded-full">
+                    <img class="h-40 rounded-full md:h-50" src="https://placehold.co/150" alt="Cliente 2">
+                    <div class="px-4 content-center">
+                        <p class="font-bold text-sm md:text-lg">Adalberto</p>
+                        <p class="italic text-sm md:text-md">Adorei o atendimento!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="sec sec__contato">
+            <h1 class="font-bold text-xl text-center">Entre em contato com a gente!</h1>
+            <ul class="text-center py-4">
+                <li class="text-amber-700">Whatsapp: (xx) xxxxx-xxxx</li>
+                <li class="text-amber-700">X/Twitter: @...</li>
+                <li class="text-amber-700">Instagram: @...</li>
+            </ul>
+            <h1 class="font-bold text-l text-center">Ou nos contate por aqui!</h1>
+            <form action="none">
+                <div class="text-center py-1">
+                    <label for="nomeipt">Nome:</label><br>
+                    <input class="border-2 rounded-4xl border-amber-500 w-75" name="nomeipt" type="text">
+                </div>
+                <div class="text-center py-1">
+                    <label for="emailipt">E-mail</label><br>
+                    <input class="border-2 rounded-4xl border-amber-500 w-75" type="email" name="emailipt">
+                </div>
+                <div class="text-center py-1">
+                    <label for="mensagemipt">Mensagem:</label><br>
+                    <input class="border-2 rounded-4xl border-amber-500 h-20 w-75" type="text" name="mensagemipt">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
